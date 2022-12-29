@@ -1,0 +1,5 @@
+SELECT name
+FROM Customer
+WHERE IFNULL(referee_id,0)!=2 
+
+Write an SQL query to report the names of the customer that are not referred by the customer with id = 2.
