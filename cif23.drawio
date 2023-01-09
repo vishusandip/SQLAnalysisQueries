@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T03:13:54.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="20.8.3" etag="Zhcl7fqQE3cd-Zebgdtj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T03:17:58.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="20.8.3" etag="lgDGKx5sAL-p8gAJoU07" type="github">
   <diagram id="4ImesfKOH706sMINZZgn" name="Page-1">
     <mxGraphModel dx="922" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,6 +33,18 @@
             <mxPoint x="440" y="360" as="sourcePoint" />
             <mxPoint x="490" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Eq7RXRJCarPIpQtKBuLK-10" value="prev COVID vaccinations" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq7RXRJCarPIpQtKBuLK-11" value="+PatientIdentifier&#xa;+vaccination date&#xa;+vaccine brand&#xa;+is side effects&#xa;+vaccination location&#xa;+vaccination eligible date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Eq7RXRJCarPIpQtKBuLK-10">
+          <mxGeometry y="30" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq7RXRJCarPIpQtKBuLK-12" value="Census" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Eq7RXRJCarPIpQtKBuLK-13" value="+person identifier&#xa;+address&#xa;+citty" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Eq7RXRJCarPIpQtKBuLK-12">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
